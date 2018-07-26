@@ -3,7 +3,7 @@
 <eagle version="9.1.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
