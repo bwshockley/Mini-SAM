@@ -2711,7 +2711,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="10µF"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1µF"/>
-<part name="FB1" library="microbuilder" deviceset="FERRITE" device="_0603MP"/>
+<part name="FB" library="microbuilder" deviceset="FERRITE" device="_0603MP"/>
 <part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1µF"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2721,7 +2721,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J4" library="pinhead+" deviceset="PINHD-1X11" device="1X11_SMT"/>
 <part name="J3" library="pinhead+" deviceset="PINHD-1X11" device="1X11_SMT"/>
-<part name="LED" library="microbuilder" deviceset="LED" device="0603_NOOUTLINE"/>
+<part name="L" library="microbuilder" deviceset="LED" device="0603_NOOUTLINE"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C11" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="10µF"/>
@@ -2737,7 +2737,7 @@ PTH and SMD connector options available.&lt;/p&gt;
 <part name="C13" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="4.7nF"/>
 <part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="1M"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IC1" library="SparkFun-PowerIC" deviceset="V_REG_AP2112" device="K-3.3V" value="AP2112K-3.3V"/>
+<part name="VREG" library="SparkFun-PowerIC" deviceset="V_REG_AP2112" device="K-3.3V" value="AP2112K-3.3V"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="IC2" library="Shockley_Custom" deviceset="PRTR5V0U2X" device=""/>
@@ -2818,7 +2818,7 @@ Section 56.7 Programming</text>
 <instance part="C9" gate="G$1" x="121.92" y="170.18"/>
 <instance part="GND13" gate="1" x="121.92" y="160.02"/>
 <instance part="C3" gate="G$1" x="33.02" y="99.06" rot="MR180"/>
-<instance part="FB1" gate="G$1" x="114.3" y="177.8"/>
+<instance part="FB" gate="G$1" x="114.3" y="177.8"/>
 <instance part="C8" gate="G$1" x="33.02" y="81.28"/>
 <instance part="GND1" gate="1" x="33.02" y="71.12"/>
 <instance part="GND2" gate="1" x="33.02" y="106.68" rot="R180"/>
@@ -2831,7 +2831,7 @@ Section 56.7 Programming</text>
 <instance part="GND12" gate="1" x="363.22" y="177.8"/>
 <instance part="J4" gate="A" x="241.3" y="43.18" rot="MR0"/>
 <instance part="J3" gate="A" x="218.44" y="43.18"/>
-<instance part="LED" gate="G$1" x="177.8" y="165.1" smashed="yes" rot="MR0">
+<instance part="L" gate="G$1" x="177.8" y="165.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="179.324" y="169.799" size="1.27" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="190.5" y="161.798" size="1.27" layer="96" rot="MR0"/>
 </instance>
@@ -2850,7 +2850,7 @@ Section 56.7 Programming</text>
 <instance part="C13" gate="G$1" x="353.06" y="187.96" rot="MR0"/>
 <instance part="R6" gate="G$1" x="358.14" y="190.5" rot="R90"/>
 <instance part="GND3" gate="1" x="355.6" y="177.8"/>
-<instance part="IC1" gate="G$1" x="78.74" y="218.44"/>
+<instance part="VREG" gate="G$1" x="78.74" y="218.44"/>
 <instance part="GND20" gate="1" x="66.04" y="205.74"/>
 <instance part="GND21" gate="1" x="60.96" y="205.74"/>
 <instance part="IC2" gate="G$1" x="383.54" y="203.2" rot="MR180"/>
@@ -2949,7 +2949,7 @@ Section 56.7 Programming</text>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED" gate="G$1" pin="C"/>
+<pinref part="L" gate="G$1" pin="C"/>
 <wire x1="175.26" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
@@ -2983,7 +2983,7 @@ Section 56.7 Programming</text>
 <junction x="355.6" y="182.88"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="VREG" gate="G$1" pin="GND"/>
 <wire x1="68.58" y1="213.36" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="213.36" x2="66.04" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
@@ -3041,7 +3041,7 @@ Section 56.7 Programming</text>
 <wire x1="106.68" y1="177.8" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="177.8" x2="106.68" y2="177.8" width="0.1524" layer="91"/>
 <junction x="106.68" y="177.8"/>
-<pinref part="FB1" gate="G$1" pin="P$1"/>
+<pinref part="FB" gate="G$1" pin="P$1"/>
 <label x="106.68" y="182.88" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
@@ -3059,7 +3059,7 @@ Section 56.7 Programming</text>
 <label x="322.58" y="86.36" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
+<pinref part="VREG" gate="G$1" pin="OUT"/>
 <wire x1="86.36" y1="223.52" x2="91.44" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="223.52" x2="96.52" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="223.52" x2="91.44" y2="218.44" width="0.1524" layer="91"/>
@@ -3372,7 +3372,7 @@ Section 56.7 Programming</text>
 <wire x1="121.92" y1="177.8" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="177.8" x2="121.92" y2="182.88" width="0.1524" layer="91"/>
 <junction x="121.92" y="177.8"/>
-<pinref part="FB1" gate="G$1" pin="P$2"/>
+<pinref part="FB" gate="G$1" pin="P$2"/>
 <label x="121.92" y="182.88" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
@@ -3383,9 +3383,9 @@ Section 56.7 Programming</text>
 <label x="358.14" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IN"/>
+<pinref part="VREG" gate="G$1" pin="IN"/>
 <wire x1="68.58" y1="223.52" x2="66.04" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="EN"/>
+<pinref part="VREG" gate="G$1" pin="EN"/>
 <wire x1="68.58" y1="218.44" x2="66.04" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="218.44" x2="66.04" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="223.52" x2="60.96" y2="223.52" width="0.1524" layer="91"/>
@@ -3618,7 +3618,7 @@ Section 56.7 Programming</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LED" gate="G$1" pin="A"/>
+<pinref part="L" gate="G$1" pin="A"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="182.88" y1="165.1" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
 </segment>
