@@ -1,23 +1,41 @@
 Partlist exported from C:/Users/shockleyb/CloudStation/Eagle/Circuits/MiniSAMD51/Mini-SAM-D51/MINI_SAM_D51_007.sch at 7/31/2018 3:42 PM
 
 Qty Value                 Device                Package                Parts               Description                                 
-1                         FERRITE_0603MP        _0603MP                FB                  Ferrite Bead                                
-1                         LED0603_NOOUTLINE     CHIPLED_0603_NOOUTLINE L                   LED                                         
-2                         PINHD-1X111X11_SMT    1X11_SMT               J3, J4              PIN HEADER                                  
-5   0.1µF                 CAP_CERAMIC_0603MP    _0603MP                C1, C3, C7, C8, C12 Ceramic Capacitors                          
-1   100k                  RESISTOR_0603MP       _0603MP                R7                  Resistors                                   
-2   10K                   RESISTOR_0603MP       _0603MP                R4, R5              Resistors                                   
-4   10µF                  CAP_CERAMIC_0603MP    _0603MP                C2, C9, C10, C11    Ceramic Capacitors                          
-1   1M                    RESISTOR_0603MP       _0603MP                R6                  Resistors                                   
-2   1k                    RESISTOR_0603MP       _0603MP                R2, R8              Resistors                                   
-1   330Ohm                RESISTOR_0603MP       _0603MP                R3                  Resistors                                   
-1   4.7nF                 CAP_CERAMIC_0603MP    _0603MP                C13                 Ceramic Capacitors                          
-1   4.7µF                 CAP_CERAMIC_0603MP    _0603MP                C6                  Ceramic Capacitors                          
+Others
+1                         FERRITE BEAD*         0603                   FB                  Ferrite Bead
+1                         LED                   0603                   L                   LED                                         
+                            
+Capacitors
+5   0.1µF                 CAP_CERAMIC           0603                   C1, C3, C7, C8, C12 Ceramic Capacitors
+4   10µF                  CAP_CERAMIC           0603                   C2, C9, C10, C11    Ceramic Capacitors
+1   4.7nF                 CAP_CERAMIC           0603                   C13                 Ceramic Capacitors                          
+1   4.7µF                 CAP_CERAMIC           0603                   C6                  Ceramic Capacitors
+
+Resistors
+1   100k                  RESISTOR              0603                   R7                  Resistors                                   
+2   10K                   RESISTOR              0603                   R4, R5              Resistors                                   
+1   1M                    RESISTOR              0603                   R6                  Resistors                                   
+2   1k                    RESISTOR              0603                   R2**, R8            Resistors                                   
+1   330Ohm                RESISTOR              0603                   R3                  Resistors                                   
+
+ICs
 1   AP102-2020            APA1022020            APA102_2020            RGB                 APA102/DotStar Pixels                       
-1   AP2112K-3.3V          V_REG_AP2112K-3.3V    SOT23-5                VREG                AP2112 - 600mA CMOS LDO Regulator w/ Enable 
-1   ATSAMD51G_TQFN48      ATSAMD51G_TQFN48      TQFN48_7MM             IC4                                                             
-1   CORTEX_DEBUG_PTH      CORTEX_DEBUG_PTH      2X5-PTH-1.27MM         J2                  Cortex Debug Connector - 10 pin             
-1   GD25x16               SPIFLASH_8PINUX       USON8                  U1                  SOIC8 SPI Flash                             
+1   AP2112K-3.3V          AP2112K-3.3V          SOT23-5                VREG                AP2112 - 600mA CMOS LDO Regulator w/ Enable 
+1   ATSAMD51G_TQFN48      ATSAMD51G_TQFN48      TQFN48_7MM             IC4                 Main CPU    
+1   GD25x16               SPIFLASH_8PINUX       USON8                  U1                  SOIC8 SPI Flash   
+1   PRTR5V0U2X            PRTR5V0U2X            SOT143B                IC2                 ESD Protection for USB.
+
+Connectors/Switches
 2   KMS233GLFG            KMS_SWITCHKMS         KMS_SWITCH             SW1, SW2                                                        
-1   MOLEX_47346-100147346 MOLEX_47346-100147346 MOLEX_47346-1001       J1                                                              
-1   PRTR5V0U2X            PRTR5V0U2X            SOT143B_REFLOW         IC2                                                             
+1   MOLEX_47346-100147346 MOLEX_47346-100147346 MOLEX_47346-1001       J1                  Micro-USB Connector
+
+Headers
+1                         CORTEX_DEBUG_PTH      2X5-PTH-1.27MM         J2                  Cortex Debug Connector - 10 pin
+2                         PINHD-1X111X11_SMT    1X11_SMT               J3, J4              PIN HEADER, SMT   
+
+*The bead should provide enough impedance (e.g., 50Ω at 20 MHz and 220Ω at 100 MHz) to separate the digital and analog power domains.
+Make sure to select a ferrite bead designed for filtering applications with a low DC resistance to avoid a large voltage drop across
+the ferrite bead.
+
+**R2 is the LED (L) resistor and when choosing your 0603 sized LED, please choose a resistor to match based on 3.3V supply voltage,
+LED voltage drop and desired current.
