@@ -2675,7 +2675,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1µF"/>
+<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="4.7µF"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="4.7µF"/>
 <part name="C2" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="10µF"/>
