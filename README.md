@@ -24,5 +24,7 @@ Arduino FIRMWARE/BOOTLOADER is **in-work**. The goal is a bootloader that has al
 ## CircuitPython
 CircuitPython work is **in-work** and will utilize the wonderful work done for the [Adafruit ItsyBitsy M4](https://www.adafruit.com/product/3800) - as it is essentially the same board.
 
+Bootloader for Mini SAM M4 can be built from this source: [UF2-SAMDX1](https://github.com/bwshockley/uf2-samdx1) 
+
 ## Open Source
 Boards can be ordered direct from [OSHPark](https://oshpark.com/profiles/bwshockley).
