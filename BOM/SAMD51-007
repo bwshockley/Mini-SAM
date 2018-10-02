@@ -22,7 +22,7 @@ ICs
 1   AP102-2020            APA1022020            APA102_2020            RGB                 APA102/DotStar Pixels                       
 1   AP2112K-3.3V          AP2112K-3.3V          SOT23-5                VREG                AP2112 - 600mA CMOS LDO Regulator w/ Enable 
 1   ATSAMD51G_TQFN48      ATSAMD51G_TQFN48      TQFN48_7MM             IC4                 Main CPU    
-1   GD25x16               SPIFLASH_8PINUX       USON8                  U1                  SOIC8 SPI Flash   
+1   2MB FLASH             IS25LP016D-JULE       USON8 (2x3mm)          U1                  USON8 2mmx3mm QSPI Flash
 1   PRTR5V0U2X            PRTR5V0U2X            SOT143B                IC2                 ESD Protection for USB.
 
 Connectors/Switches
