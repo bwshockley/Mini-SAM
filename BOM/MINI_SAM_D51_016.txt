@@ -18,4 +18,4 @@ Qty Value                                                            Device     
 2   KMS233GLFG                                                       KMS_SWITCHKMS         KMS_SWITCH                    SW1, SW2                                                                    
 2   MBR120                                                           DIODE_SOD-123FL       SOD-123FL                     D1, D2          Diode                                                       
 1   MOLEX_47346-100147346                                            MOLEX_47346-100147346 MOLEX_47346-1001              J1                                                                          
-1   QSPI NOR FLASH 2MiB 2x3mm USON (W25Q16JVUXIM)                    SPIFLASH_8PINUX       USON8                         U2              SOIC8 SPI Flash                                             
+1   QSPI NOR FLASH 2MiB 2x3mm USON (W25Q16JVUXIM)                    SPIFLASH_8PINUX       USON8                         U2              2mmx3mm USON QSPI Nor Flash                                             
