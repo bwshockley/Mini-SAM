@@ -2684,7 +2684,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C7" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="10µF"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1µF"/>
-<part name="FB" library="microbuilder" deviceset="FERRITE" device="_0603MP"/>
+<part name="FB" library="microbuilder" deviceset="FERRITE" device="_0603MP" value="Impedence: 50 ohm @ 20 MHz, 220 Ohm @ 100 MHz; low DC resistance"/>
 <part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1µF"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2692,17 +2692,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J1" library="Shockley_Custom" deviceset="MOLEX_47346-1001" device="47346" value="MOLEX_47346-100147346"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device="" value="45"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LED" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE"/>
+<part name="LED" library="microbuilder" deviceset="LED" device="0805_NOOUTLINE" value="Easily mounted up-sdie down."/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="10µF"/>
 <part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="10µF"/>
 <part name="SW1" library="Shockley_Custom" deviceset="KMS_SWITCH" device="KMS" value="KMS233GLFG"/>
 <part name="SW2" library="Shockley_Custom" deviceset="KMS_SWITCH" device="KMS" value="KMS233GLFG"/>
-<part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="1K"/>
+<part name="R1" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="1KΩ"/>
 <part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1µF"/>
-<part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="10K"/>
-<part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="10K"/>
+<part name="R2" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="10KΩ"/>
+<part name="R3" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="10KΩ"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VREG" library="SparkFun-PowerIC" deviceset="V_REG_AP2112" device="K-3.3V" value="AP2112K-3.3V"/>
@@ -2712,11 +2712,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$16" library="microbuilder" deviceset="GND" device=""/>
 <part name="RGB" library="microbuilder" deviceset="APA102" device="2020" value="AP102-2020"/>
 <part name="U$10" library="microbuilder" deviceset="GND" device=""/>
-<part name="U2" library="microbuilder" deviceset="SPIFLASH_8PIN" device="UX" value="GD25x16"/>
+<part name="U2" library="microbuilder" deviceset="SPIFLASH_8PIN" device="UX" value="QSPI NOR FLASH 2MiB 2x3mm USON (W25Q16JVUXIM)"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="100k"/>
-<part name="R5" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="220"/>
-<part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="1K"/>
+<part name="R4" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="100kΩ"/>
+<part name="R5" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="220Ω"/>
+<part name="R6" library="microbuilder" deviceset="RESISTOR" device="_0603MP" value="1KΩ"/>
 <part name="J2" library="Shockley_Custom" deviceset="1X5_HEADER_1.27MM" device="CAST" value="1X5_HEADER_1.27MMCAST"/>
 <part name="J4" library="Shockley_Custom" deviceset="1X5_HEADER_1.27MM" device="CAST" value="1X5_HEADER_1.27MMCAST"/>
 <part name="J3" library="Shockley_Custom" deviceset="1X8_HEADER_1.27MM" device="CAST" value="1X8_HEADER_1.27MMCAST"/>
@@ -2807,7 +2807,9 @@ UART:
 <instance part="C7" gate="G$1" x="121.92" y="170.18"/>
 <instance part="GND13" gate="1" x="121.92" y="160.02"/>
 <instance part="C3" gate="G$1" x="25.4" y="99.06" rot="MR180"/>
-<instance part="FB" gate="G$1" x="114.3" y="177.8"/>
+<instance part="FB" gate="G$1" x="114.3" y="177.8" smashed="yes">
+<attribute name="NAME" x="113.03" y="179.705" size="1.27" layer="95"/>
+</instance>
 <instance part="C8" gate="G$1" x="25.4" y="81.28"/>
 <instance part="GND1" gate="1" x="25.4" y="71.12"/>
 <instance part="GND2" gate="1" x="25.4" y="106.68" rot="R180"/>
@@ -2820,7 +2822,6 @@ UART:
 <instance part="GND12" gate="1" x="358.14" y="195.58"/>
 <instance part="LED" gate="G$1" x="177.8" y="165.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="179.324" y="169.799" size="1.27" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="190.5" y="161.798" size="1.27" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND14" gate="1" x="170.18" y="165.1" rot="R270"/>
 <instance part="GND17" gate="1" x="91.44" y="205.74"/>
@@ -2842,7 +2843,10 @@ UART:
 <instance part="U$16" gate="G$1" x="20.32" y="17.78"/>
 <instance part="RGB" gate="G$1" x="195.58" y="210.82"/>
 <instance part="U$10" gate="G$1" x="195.58" y="195.58"/>
-<instance part="U2" gate="G$1" x="269.24" y="205.74"/>
+<instance part="U2" gate="G$1" x="269.24" y="205.74" smashed="yes">
+<attribute name="NAME" x="256.54" y="218.44" size="1.778" layer="95"/>
+<attribute name="VALUE" x="220.98" y="185.42" size="1.778" layer="95"/>
+</instance>
 <instance part="GND18" gate="1" x="287.02" y="195.58" rot="MR0"/>
 <instance part="R4" gate="G$1" x="228.6" y="205.74"/>
 <instance part="R5" gate="G$1" x="190.5" y="165.1"/>

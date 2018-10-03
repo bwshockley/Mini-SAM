@@ -1545,7 +1545,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C3" library="microbuilder" package="_0603MP" value="0.1µF" x="8.3" y="14.3" smashed="yes" rot="R225">
 <attribute name="NAME" x="7.0307625" y="13.480759375" size="0.6096" layer="29" font="vector" ratio="18" align="top-center"/>
 </element>
-<element name="FB" library="microbuilder" package="_0603MP" value="" x="17.7" y="16.3" smashed="yes" rot="R135">
+<element name="FB" library="microbuilder" package="_0603MP" value="Impedence: 50 ohm @ 20 MHz, 220 Ohm @ 100 MHz; low DC resistance" x="17.7" y="16.3" smashed="yes" rot="R135">
 <attribute name="NAME" x="18.75" y="15.05" size="0.6096" layer="25" font="vector" ratio="18" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="19.0470375" y="16.3" size="0.4064" layer="27" ratio="10" rot="R135"/>
 </element>
@@ -1556,7 +1556,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="17" y="11.85" size="0.6096" layer="25" font="vector" ratio="18" rot="R180" align="top-center"/>
 </element>
 <element name="J1" library="Shockley_Custom" package="MOLEX_47346-1001" value="MOLEX_47346-100147346" x="12" y="36.55" smashed="yes" rot="MR0"/>
-<element name="LED" library="microbuilder" package="CHIPLED_0805_NOOUTLINE" value="" x="12" y="26.45" smashed="yes" rot="MR90">
+<element name="LED" library="microbuilder" package="CHIPLED_0805_NOOUTLINE" value="Easily mounted up-sdie down." x="12" y="26.45" smashed="yes" rot="MR90">
 <attribute name="NAME" x="14.05" y="26.45" size="0.6096" layer="30" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 </element>
 <element name="C10" library="microbuilder" package="_0603MP" value="10µF" x="12" y="19.513" smashed="yes" rot="MR180">
@@ -1567,16 +1567,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="SW1" library="Shockley_Custom" package="KMS_SWITCH" value="KMS233GLFG" x="8.075" y="1.65" smashed="yes"/>
 <element name="SW2" library="Shockley_Custom" package="KMS_SWITCH" value="KMS233GLFG" x="15.925" y="1.65" smashed="yes"/>
-<element name="R1" library="microbuilder" package="_0603MP" value="1K" x="8.5" y="10.55" smashed="yes" rot="R270">
+<element name="R1" library="microbuilder" package="_0603MP" value="1KΩ" x="8.5" y="10.55" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.5" y="11.85" size="0.6096" layer="25" font="vector" ratio="18" align="bottom-center"/>
 </element>
 <element name="C4" library="microbuilder" package="_0603MP" value="0.1µF" x="7" y="10.55" smashed="yes" rot="R270">
 <attribute name="NAME" x="7" y="11.85" size="0.6096" layer="25" font="vector" ratio="18" align="bottom-center"/>
 </element>
-<element name="R2" library="microbuilder" package="_0603MP" value="10K" x="10" y="10.55" smashed="yes" rot="R270">
+<element name="R2" library="microbuilder" package="_0603MP" value="10KΩ" x="10" y="10.55" smashed="yes" rot="R270">
 <attribute name="NAME" x="10" y="11.85" size="0.6096" layer="25" font="vector" ratio="18" align="bottom-center"/>
 </element>
-<element name="R3" library="microbuilder" package="_0603MP" value="10K" x="14" y="10.55" smashed="yes" rot="R90">
+<element name="R3" library="microbuilder" package="_0603MP" value="10KΩ" x="14" y="10.55" smashed="yes" rot="R90">
 <attribute name="NAME" x="14" y="11.85" size="0.6096" layer="25" font="vector" ratio="18" align="bottom-center"/>
 </element>
 <element name="U$3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="" x="12" y="16.1" rot="MR0"/>
@@ -1590,12 +1590,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="RGB" library="microbuilder" package="APA102_2020" value="AP102-2020" x="8.5" y="7" smashed="yes" rot="R90">
 <attribute name="VALUE" x="9.9" y="6.999996875" size="0.4064" layer="27" ratio="10" rot="R90" align="center"/>
 </element>
-<element name="U2" library="microbuilder" package="USON8" value="GD25x16" x="16.65" y="23.65" smashed="yes" rot="R135"/>
-<element name="R4" library="microbuilder" package="_0603MP" value="100k" x="18" y="25" smashed="yes" rot="R135">
+<element name="U2" library="microbuilder" package="USON8" value="QSPI NOR FLASH 2MiB 2x3mm USON (W25Q16JVUXIM)" x="16.65" y="23.65" smashed="yes" rot="R135"/>
+<element name="R4" library="microbuilder" package="_0603MP" value="100kΩ" x="18" y="25" smashed="yes" rot="R135">
 <attribute name="NAME" x="18.95478125" y="24.843246875" size="0.6096" layer="25" font="vector" ratio="18" rot="R315" align="bottom-center"/>
 </element>
-<element name="R5" library="microbuilder" package="_0603MP" value="220" x="12" y="27.65" smashed="yes" rot="MR180"/>
-<element name="R6" library="microbuilder" package="_0603MP" value="1K" x="12" y="18.294" smashed="yes" rot="MR180">
+<element name="R5" library="microbuilder" package="_0603MP" value="220Ω" x="12" y="27.65" smashed="yes" rot="MR180"/>
+<element name="R6" library="microbuilder" package="_0603MP" value="1KΩ" x="12" y="18.294" smashed="yes" rot="MR180">
 <attribute name="NAME" x="14.2" y="18.294" size="0.6096" layer="26" font="vector" ratio="18" rot="MR90" align="bottom-center"/>
 </element>
 <element name="J2" library="Shockley_Custom" package="1X5_HEADER_1.27MM_CASTELLATED" value="1X5_HEADER_1.27MMCAST" x="1.775" y="19.25" rot="R258.5"/>
