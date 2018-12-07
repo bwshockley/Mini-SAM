@@ -1,0 +1,21 @@
+﻿Partlist exported from C:/Users/shockleyb/CloudStation/Eagle/Circuits/MiniSAMD51/Mini-SAM-D51/MINI_SAM_D51_016.sch at 10/3/2018 10:34 AM
+
+Qty Value                                                            Device                Package                       Parts           Description                                 PROD_ID    VALUE
+4   0.1µF                                                            CAP_CERAMIC_0603MP    0603                          C3, C4, C6, C8  Ceramic Capacitors                                          
+1   100kΩ                                                            RESISTOR_0603MP       0603                          R4              Resistors                                                   
+2   10KΩ                                                             RESISTOR_0603MP       0603                          R2, R3          Resistors                                                   
+4   10µF                                                             CAP_CERAMIC_0603MP    0603                          C2, C7, C9, C10 Ceramic Capacitors                                          
+2   1KΩ                                                              RESISTOR_0603MP       0603                          R1, R6          Resistors                                                   
+2   DNP                                                              1X5_HEADER_1.27MMCAST 1X5_HEADER_1.27MM_CASTELLATED J2, J4          Do not populate.                                                            
+2   DNP                                                              1X8_HEADER_1.27MMCAST 1X8_HEADER_1.27MM_CASTELLATED J3, J5          Do not populate.                                                            
+1   120Ω                                                             RESISTOR_0603MP       0603                          R5              Resistors                                                   
+2   4.7µF                                                            CAP_CERAMIC_0603MP    0603                          C1, C5          Ceramic Capacitors                                          
+1   AP102-2020                                                       APA1022020            APA102 20mmx20mm              RGB             APA102/DotStar Pixels                                       
+1   AP2112K-3.3V                                                     V_REG_AP2112K-3.3V    SOT-23-5                      VREG            AP2112 - 600mA CMOS LDO Regulator w/ Enable VREG-12457 3.3V 
+1   ATSAMD51G_TQFN48                                                 ATSAMD51G_TQFN48      TQFN48_7MM                    U1              NIcrocontroller                                                            
+1   VLRK31Q1R1-GS08                                                  REVERSEMOUNTLED       PLCC-2 Reverse Gullwing       LED             LED behind rocket                                                         
+1   Impedence: 50 ohm @ 20 MHz, 220 Ohm @ 100 MHz; low DC resistance FERRITE_0603MP        0603                          FB              Ferrite Bead                                                
+2   KMS233GLFG                                                       KMS_SWITCHKMS         KMS_SWITCH                    SW1, SW2        Push Buttons / Rest and User                                                            
+2   MBR120                                                           DIODE_SOD-123FL       SOD-123FL                     D1, D2          Diode                                                       
+1   MOLEX_47346-100147346                                            MOLEX_47346-100147346 MOLEX_47346-1001              J1              Micro USB - not though-hole.                                                            
+1   QSPI NOR FLASH 2MiB 2x3mm USON (W25Q16JVUXIM)                    SPIFLASH_8PINUX       USON8 2mmx3mm                 U2              2mmx3mm USON QSPI Nor Flash                                             
