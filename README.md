@@ -18,14 +18,18 @@ The boards include a 600mA 3.3V regulator, more than enough to power this little
 ## BOM
 Please see the BOM for each board
 
+## Boorloader
+A UF2 bootloader is available for the M4 board (will be available for the M0 when ready).  This bootloader may be built from source using my UF2 repository or downloaded from the [Minifigboards Software](https://www.minifigboards.com/mini-sam-m4/software/) page.
+
+Source: [UF2-SAMDX1](https://github.com/bwshockley/uf2-samdx1) 
+
 ## Arduino
-Arduino FIRMWARE/BOOTLOADER is **in-work**. The goal is a bootloader that has all functions working and all on-board features usable with "Built-In" terminology in Arduino, i.e. LED_BUILTIN, MOSI, MISO, SCK, and BUTTON_BUILTIN.
+Arduino firmware is available for the M4 board as well. Instructions for adding the board to the board manager in the Arduino IDE are available on the [Minifigboards Software](https://www.minifigboards.com/mini-sam-m4/software/) page.
 
 ## CircuitPython
-CircuitPython is available for the M4 board. [Mini SAM M4](https://github.com/adafruit/circuitpython/tree/master/ports/atmel-samd/boards/mini_sam_m4)  
+CircuitPython is available for the M4 board. [Mini SAM M4](https://circuitpython.org/board/mini_sam_m4/)  
 CircuitPython will soon be available for the M0 board.
 
-Bootloader for Mini SAM M4 can be built from this source: [UF2-SAMDX1](https://github.com/bwshockley/uf2-samdx1) 
 
 ## Open Source
 Boards can be ordered direct from [OSHPark](https://oshpark.com/profiles/bwshockley).
