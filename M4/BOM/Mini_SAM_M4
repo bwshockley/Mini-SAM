@@ -6,8 +6,6 @@ Qty Value                                                            Device     
 2   10KΩ                                                             RESISTOR_0603MP       0603                          R2, R3          Resistors                                                   
 4   10µF                                                             CAP_CERAMIC_0603MP    0603                          C2, C7, C9, C10 Ceramic Capacitors                                          
 2   1KΩ                                                              RESISTOR_0603MP       0603                          R1, R6          Resistors                                                   
-2   DNP                                                              1X5_HEADER_1.27MMCAST 1X5_HEADER_1.27MM_CASTELLATED J2, J4          Do not populate.                                                            
-2   DNP                                                              1X8_HEADER_1.27MMCAST 1X8_HEADER_1.27MM_CASTELLATED J3, J5          Do not populate.                                                            
 1   120Ω                                                             RESISTOR_0603MP       0603                          R5              Resistors                                                   
 2   4.7µF                                                            CAP_CERAMIC_0603MP    0603                          C1, C5          Ceramic Capacitors                                          
 1   AP102-2020                                                       APA1022020            APA102 20mmx20mm              RGB             APA102/DotStar Pixels                                       
