@@ -1,0 +1,1 @@
+This is the repository for the "After Dark" version of the Mini SAM M4 board.  This design was talored for the "After Dark" option at oshpark.com, but should work for other PCB manufacturing that involves a clear solder mask.
