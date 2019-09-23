@@ -18,7 +18,7 @@ The boards include a 600mA 3.3V regulator, more than enough to power this little
 ## BOM
 Please see the BOM for each board
 
-## Boorloader
+## Bootloader
 A UF2 bootloader is available for the M4 board (will be available for the M0 when ready).  This bootloader may be built from source using my UF2 repository or downloaded from the [Minifigboards Software](https://www.minifigboards.com/mini-sam-m4/software/) page.
 
 Source: [UF2-SAMDX1](https://github.com/bwshockley/uf2-samdx1) 
